@@ -1,0 +1,86 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+/* Estilo para a seção de eventos próximos */
+.eventos-proximos,
+.seus-eventos {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.evento {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.evento h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.evento p {
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Estilo para a seção "Seus Eventos" */
+.seus-eventos h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+}
+/* Estilos do cabeçalho */
+header {
+    background-color: #004AF7; /* Cor do cabeçalho */
+    color: #fff;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+    color: #002984; /* Cor mais escura para o hover */
+}
+
+nav a:hover,
+.nav-link.active {
+    color: #002984; /* Azul mais escuro para hover e link ativo */
+}
+
+.logo {
+    height: 80px; /* Ajuste a altura conforme necessário */
+}
+
+
+
+
+
+
+
+
+
+

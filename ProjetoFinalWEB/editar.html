@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Evento</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="editar.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" rel="stylesheet">
+</head>
+
+<body class="d-flex flex-column vh-100">
+    <header class="bg-primary text-white py-4">
+        <div class="container d-flex justify-content-between align-items-center">
+            <img src="uniforlogo.png" alt="Logo" class="logo">
+            <h1 class="mb-0 mx-auto text-center flex-grow-1">UNIFOR EVENTOS</h1>
+        </div>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link" href="paginainicial.html">Início</a></li>
+                <li class="nav-item"><a class="nav-link active" href="paginaeventos.html">Eventos</a></li>
+                <li class="nav-item"><a class="nav-link" href="paginacadastro.html">Entre/Cadastre-se</a></li>
+                <li class="nav-item"><a class="nav-link" href="paginasobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container mt-4 flex-grow-1">
+        <div class="row justify-content-between">
+            <div class="col-md-5 mb-4 border rounded p-4">
+                <h2>Gestão de Eventos</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="selectEvento">Selecione o Evento:</label>
+                        <select class="form-control" id="selectEvento">
+                            <option value="evento1">Evento 1</option>
+                            <option value="evento2">Evento 2</option>
+                            <option value="evento3">Evento 3</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="alterarNome">Alterar Nome:</label>
+                        <input type="text" class="form-control" id="alterarNome" placeholder="Novo Nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="alterarData">Alterar Data:</label>
+                        <input type="date" class="form-control" id="alterarData">
+                    </div>
+                    <div class="form-group">
+                        <label for="alterarLocal">Alterar Local:</label>
+                        <input type="text" class="form-control" id="alterarLocal" placeholder="Novo Local">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Alterar Evento</button>
+                </form>
+                <div id="eventoAlteradoSucesso" class="alert alert-success mt-3 d-none" role="alert">
+                    Evento alterado com sucesso <i class="bi bi-check-circle-fill"></i>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-light py-4 mt-auto">
+        <div class="container text-center">
+            <p class="mb-0">© 2024 Eventos Universitários</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="editar.js"></script>
+</body>
+
+</html>
+

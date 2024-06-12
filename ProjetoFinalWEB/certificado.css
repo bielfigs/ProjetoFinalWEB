@@ -1,0 +1,63 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #004AF7; /* Cor do cabeçalho */
+    color: #fff;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+    color: #002984; /* Cor para hover e página ativa */
+}
+
+/* Estilos dos contêineres */
+.container {
+    margin-top: 20px;
+}
+
+.border {
+    border: 1px solid #dee2e6 !important; /* Adiciona borda aos contêineres */
+}
+
+.rounded {
+    border-radius: 10px; /* Arredonda os cantos dos contêineres */
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos para a logo */
+.logo {
+    height: 80px; /* Ajusta a altura da logo conforme necessário */
+}
+
+/* Adicione aqui os estilos específicos para a página de Consultar Certificados */
+

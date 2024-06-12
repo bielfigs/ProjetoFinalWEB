@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Últimos Eventos</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="avaliarevento.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" rel="stylesheet">
+</head>
+<body class="d-flex flex-column vh-100">
+    <header class="bg-primary text-white py-4">
+        <div class="container d-flex justify-content-between align-items-center">
+            <img src="uniforlogo.png" alt="Logo" class="logo">
+            <h1 class="mb-0 mx-auto text-center flex-grow-1">UNIFOR EVENTOS</h1>
+        </div>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link" href="paginainicial.html">Início</a></li>
+                <li class="nav-item"><a class="nav-link active" href="paginaeventos.html">Eventos</a></li>
+                <li class="nav-item"><a class="nav-link" href="paginacadastro.html">Entre/Cadastre-se</a></li>
+                <li class="nav-item"><a class="nav-link" href="paginasobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container mt-4 flex-grow-1">
+        <div class="row justify-content-center">
+            <div class="col-md-6 mb-4 border rounded p-4">
+                <h2>Avaliar Evento</h2>
+                <form id="evaluationForm">
+                    <div class="form-group">
+                        <label for="palestrante">Palestrante:</label>
+                        <div>
+                            <button class="btn btn-link mr-3" id="satisfacaoPalestrante" data-satisfacao="positiva"><i class="bi bi-heart-fill"></i></button>
+                            <button class="btn btn-link" id="satisfacaoPalestrante" data-satisfacao="negativa"><i class="bi bi-x"></i></button>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="materialUsado">Material Usado:</label>
+                        <div>
+                            <button class="btn btn-link mr-3" id="satisfacaoMaterial" data-satisfacao="positiva"><i class="bi bi-heart-fill"></i></button>
+                            <button class="btn btn-link" id="satisfacaoMaterial" data-satisfacao="negativa"><i class="bi bi-x"></i></button>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="temaAbordado">Tema Abordado:</label>
+                        <div>
+                            <button class="btn btn-link mr-3" id="satisfacaoTema" data-satisfacao="positiva"><i class="bi bi-heart-fill"></i></button>
+                            <button class="btn btn-link" id="satisfacaoTema" data-satisfacao="negativa"><i class="bi bi-x"></i></button>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="comentario">Comentário:</label>
+                        <textarea class="form-control" id="comentario" placeholder="Deixe um comentário"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-light py-4 mt-auto">
+        <div class="container text-center">
+            <p class="mb-0">© 2024 Eventos Universitários</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scriptsavaliacao.js"></script>
+</body>
+</html>
+

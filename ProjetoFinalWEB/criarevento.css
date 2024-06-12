@@ -1,0 +1,88 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+/* Estilos do cabeçalho */
+header {
+    background-color: #004AF7; /* Cor do cabeçalho */
+    color: #fff;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+    color: #002984; /* Cor para hover e página ativa */
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos para a logo */
+.logo {
+    height: 80px; /* Ajuste a altura conforme necessário */
+}
+
+/* Estilos dos contêineres */
+.container {
+    margin-top: 20px;
+}
+
+.border {
+    border: 1px solid #dee2e6 !important; /* Adiciona borda aos contêineres */
+}
+
+.rounded {
+    border-radius: 10px; /* Arredonda os cantos dos contêineres */
+}
+
+/* Estilos dos formulários */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Estilos para o feedback de evento criado com sucesso */
+.success-feedback {
+    color: #28a745;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Estilos para o botão Criar Evento */
+.btn-create-event {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+.btn-create-event:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Estilos para o ícone de OK */
+.icon-ok {
+    color: #28a745;
+}

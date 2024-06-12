@@ -1,0 +1,111 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #004AF7; /* Cor do cabeçalho */
+    color: #fff;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+    color: #002984; /* Cor para hover e página ativa */
+}
+
+/* Estilos dos contêineres */
+.container {
+    margin-top: 20px;
+}
+
+.border {
+    border: 1px solid #dee2e6 !important; /* Adiciona borda aos contêineres */
+}
+
+.rounded {
+    border-radius: 10px; /* Arredonda os cantos dos contêineres */
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos para a logo */
+.logo {
+    height: 80px; /* Ajusta a altura da logo conforme necessário */
+}
+
+/* Estilos do formulário */
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+/* Estilos para os botões de satisfação */
+.btn-link {
+    padding: 0;
+    color: #000;
+}
+
+.btn-link:hover {
+    color: #0056b3;
+}
+
+.btn-link:focus {
+    text-decoration: none;
+    color: #0056b3;
+    outline: none;
+}
+
+/* Estilização dos botões de satisfação */
+.bi-heart-fill,
+.bi-x {
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+
+.option:hover,
+.option.active {
+    background-color: lightblue;
+}
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border-color: #c3e6cb;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Para garantir que a mensagem esteja na parte superior */
+}
+

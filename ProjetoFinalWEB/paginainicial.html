@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma de Eventos Universitários</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesinicial.css">
+</head>
+<body class="d-flex flex-column vh-100">
+    <header class="bg-primary text-white py-4">
+        <div class="container d-flex justify-content-between align-items-center">
+            <img src="uniforlogo.png" alt="Logo" class="logo">
+            <h1 class="mb-0 mx-auto text-center flex-grow-1">UNIFOR EVENTOS</h1>
+        </div>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link active" href="paginainicial.html">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="paginaeventos.html">Eventos</a></li>
+                <li class="nav-item"><a class="nav-link" href="paginacadastro.html">Entre/Cadastre-se</a></li>
+                <li class="nav-item"><a class="nav-link" href="paginasobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container mt-4 flex-grow-1">
+        <div class="row d-flex align-items-stretch">
+            <section class="eventos-proximos col-md-6 mb-4">
+                <h2>Eventos Próximos</h2>
+                <div class="evento">
+                    <h3>Conferência de Tecnologia</h3>
+                    <p>Data: 15 de junho de 2024</p>
+                    <p>Local: Bloco D</p>
+                </div>
+                <div class="evento">
+                    <h3>Festival Cultural</h3>
+                    <p>Data: 20 de junho de 2024</p>
+                    <p>Local: Teatro Celina Queiroz</p>
+                </div>
+                <!-- Adicione mais eventos conforme necessário -->
+            </section>
+        
+            <section class="seus-eventos col-md-6 mb-4 d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h2>Seus Eventos</h2>
+                    <button class="btn btn-primary" id="novoEventoBtn">NOVO EVENTO +</button>
+                </div>
+                <!-- Adicione seus eventos aqui -->
+                <div class="flex-grow-1"></div>
+            </section>
+        </div>
+        <div class="row">
+            <div class="col-12 mb-4 img-container">
+                <img src="hubunifor.jpg" alt="Imagem" class="img-fluid rounded mx-auto d-block">
+                <p class="text-center mt-2">Unifor HUB</p>
+            </div>
+        </div>
+    </main>
+    
+    <footer class="bg-light py-4 mt-auto">
+        <div class="container text-center">
+            <p class="mb-0">© 2024 Eventos Universitários</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="scriptsinicial.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
